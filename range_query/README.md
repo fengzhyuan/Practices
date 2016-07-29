@@ -11,6 +11,13 @@ query
 ============
 the goal of this demo is to list a summary of usage of a specified cpu on a specified pc within a range of time.
 command
+
 ============
-1. generate data: ./g.sh [path_to_file] \n
-2. query: ./q.sh [path_to_file]
+1. generate data: ./generate_date.sh [path_to_file] \n
+2. query: ./query.sh [path_to_file]
+
+others
+============
+please see doxygen Doc for more details.
+To install document, install doxygen and run 'goxygen Doxyfile'
+
