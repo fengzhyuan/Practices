@@ -19,5 +19,5 @@ command
 others
 ============
 please see doxygen Doc for more details.
-To install document, install doxygen and run 'goxygen Doxyfile'
+To install document, install doxygen and run 'doxygen Doxyfile'
 
