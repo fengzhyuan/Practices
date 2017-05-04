@@ -6,9 +6,9 @@ The data is randomly sampled for testing in a day; 1000 data items are generated
 
 `[time_stamp ip_address cpu_id cpu_usage]`
 
-`time_stamp`: unix format time stamp. ...
-`ip_address`: randomly generated ip address startgin from `192.168.0.1` \n
-`cpu_id`    : value either 0 or 1 \n
+`time_stamp`: unix format time stamp.  
+`ip_address`: randomly generated ip address startgin from `192.168.0.1`  
+`cpu_id`    : value either 0 or 1  
 `cpu usage` : cpu usage within range [0%..100%]
 
 querying
