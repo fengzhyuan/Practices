@@ -17,7 +17,7 @@ This demo tries to list a summary of usage of a specified cpu on a specified pc 
 
 command
 ------------
-1. generate data: ./generate_date.sh [path_to_file] \n
+1. generate data: ./generate_date.sh [path_to_file]  
 2. query: ./query.sh [path_to_file]
 
 misc
