@@ -2,7 +2,8 @@ An efficient range query algorithm based on KDTree-Clustering; implemented with 
 
 test data
 ============
-The data is randomly sampled for testing in a day; 1000 data items are generated for every 1 minute, each data has the following format:
+The data is randomly sampled for testing; the sampling process simulates the data generated within 24 hours, with 1k items for each minute. 
+The data item has the following format:
 
 `[time_stamp ip_address cpu_id cpu_usage]`
 
@@ -13,7 +14,7 @@ The data is randomly sampled for testing in a day; 1000 data items are generated
 
 querying
 ============
-This demo tries to list a summary of usage of a specified cpu on a specified pc within a range of time.
+list a summary of usage of a specified cpu on a specified pc within a range of time.
 
 command
 ------------
@@ -22,6 +23,6 @@ command
 
 misc
 ============
-please see doxygen Doc for more details.
+please see doxygen Doc for more details, or `helper` function in `main.cpp` about how to run the code.
 To install document, install doxygen and run 'doxygen Doxyfile' in root folder
 
